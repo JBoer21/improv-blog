@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import { TestShadcnDialog } from "app/components/custom/mycomponent";
 
 export const meta: MetaFunction = () => {
   return [
@@ -43,6 +44,9 @@ export default function Index() {
           </a>
         </li>
       </ul>
+      <div className="mt-6">
+        <TestShadcnDialog />
+      </div>
     </div>
   );
 }
