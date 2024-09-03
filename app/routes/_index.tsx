@@ -7,7 +7,7 @@ import {
   NavigationMenuTrigger,
 } from "app/components/ui/navigation-menu";
 import PhotoBand from "app/components/custom/photoBand";
-
+import { photos } from "app/data/band_images";
 export const meta: MetaFunction = () => {
   return [
     { title: "Jehan's Improv Journey" },
@@ -16,39 +16,6 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-  const photos = [
-    {
-      imageUrl:
-        "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
-      title: "Newcastle United",
-      description: "The logo of Newcastle United Football Club",
-    },
-    {
-      imageUrl:
-        "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
-      title: "Magpies",
-      description: "Newcastle United's nickname",
-    },
-    {
-      imageUrl:
-        "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
-      title: "St. James' Park",
-      description: "Home stadium of Newcastle United",
-    },
-    {
-      imageUrl:
-        "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
-      title: "Black and White",
-      description: "The iconic colors of Newcastle United",
-    },
-    {
-      imageUrl:
-        "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
-      title: "Toon Army",
-      description: "The passionate fans of Newcastle United",
-    },
-  ];
-
   return (
     <div className="flex flex-col min-h-screen">
       <div className="flex flex-col items-center flex-grow p-4 font-sans">

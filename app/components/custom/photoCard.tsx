@@ -25,7 +25,7 @@ const PhotoCard: React.FC<PhotoCardProps> = ({
         className={`w-full h-full object-cover transition-opacity duration-300 ${isHovered ? "opacity-20" : "opacity-100"}`}
       />
       <div
-        className={`absolute inset-0 flex flex-col justify-center items-center p-4 text-center transition-opacity duration-300 ${isHovered ? "opacity-100" : "opacity-0"}`}
+        className={`absolute inset-0 p-4 transition-opacity duration-300 ${isHovered ? "opacity-100" : "opacity-0"} overflow-y-auto`}
       >
         <h3 className="mb-2 text-xl font-bold">{title}</h3>
         <p className="text-sm">{description}</p>
