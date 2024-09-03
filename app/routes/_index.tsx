@@ -6,6 +6,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "app/components/ui/navigation-menu";
+import PhotoBand from "app/components/custom/photoBand";
 
 export const meta: MetaFunction = () => {
   return [
@@ -15,6 +16,10 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
+  const photos = Array(7).fill(
+    "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
+  );
+
   return (
     <div className="flex flex-col min-h-screen">
       <div className="flex flex-col items-center flex-grow p-4 font-sans">
@@ -72,6 +77,7 @@ export default function Index() {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
+        <PhotoBand photos={photos} speed={0.5} />
       </div>
     </div>
   );
