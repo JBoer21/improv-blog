@@ -16,9 +16,38 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-  const photos = Array(7).fill(
-    "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
-  );
+  const photos = [
+    {
+      imageUrl:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
+      title: "Newcastle United",
+      description: "The logo of Newcastle United Football Club",
+    },
+    {
+      imageUrl:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
+      title: "Magpies",
+      description: "Newcastle United's nickname",
+    },
+    {
+      imageUrl:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
+      title: "St. James' Park",
+      description: "Home stadium of Newcastle United",
+    },
+    {
+      imageUrl:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
+      title: "Black and White",
+      description: "The iconic colors of Newcastle United",
+    },
+    {
+      imageUrl:
+        "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png",
+      title: "Toon Army",
+      description: "The passionate fans of Newcastle United",
+    },
+  ];
 
   return (
     <div className="flex flex-col min-h-screen">
