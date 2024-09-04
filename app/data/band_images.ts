@@ -38,6 +38,7 @@ export const photos = [
     imageUrl:
       "https://images.squarespace-cdn.com/content/v1/5dd3318d2eb3af0dd34a8374/1644465203977-OV3KU8ICN5NSN58A8OK6/improv%2Bgroup.jpg?format=500w",
     title: "My Improv Journey",
-    description: "",
+    description:
+      "Prior to this class, my only experience with improv had been watching it. I am super excited to get to experience the other side of it, and think improv will be beneficial to both my personal and professional life.",
   },
 ];
