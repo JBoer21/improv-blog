@@ -34,4 +34,10 @@ export const photos = [
     description:
       "My culture is a huge part of my identity. My mother is Trinidadian and my father is Dutch. The combination of the two has been interesting.",
   },
+  {
+    imageUrl:
+      "https://images.squarespace-cdn.com/content/v1/5dd3318d2eb3af0dd34a8374/1644465203977-OV3KU8ICN5NSN58A8OK6/improv%2Bgroup.jpg?format=500w",
+    title: "My Improv Journey",
+    description: "",
+  },
 ];
