@@ -4,7 +4,7 @@ export const photos = [
       "https://images.ctfassets.net/9ec6988xevcz/6kyM3sL5DcQKTqN3o4NoFV/53cbe2ab04eeed1e1f01cb503feca038/Celebrations_Girona.jpg?fm=webp&fit=fill&f=center",
     title: "Newcastle United",
     description:
-      "I consider myself a huge soccer fan. I grew up playing and watching it. I am a huge supporter of English team Newcastle United.",
+      "I consider myself a huge soccer fan. I grew up playing and watching it. I am a huge supporter of English team Newcastle United. I play on the JHU mens club soccer team",
   },
   {
     imageUrl:
@@ -18,7 +18,7 @@ export const photos = [
       "https://pbs.twimg.com/profile_images/1748420448566542336/cYx_ypR9_400x400.jpg",
     title: "Study Area of Focus",
     description:
-      "I chose to study Computer Science here at Hopkins. I am pretty interested in software and think it has tremendous potential to create positive impact.",
+      "I chose to study Computer Science here at Hopkins. I am pretty interested in software and think it has tremendous potential to create positive impact. I built this website using React Remix & Typescript.",
   },
   {
     imageUrl:
