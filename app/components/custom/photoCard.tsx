@@ -44,14 +44,14 @@ const PhotoCard: React.FC<PhotoCardProps> = ({
       <img
         src={imageUrl}
         alt={title}
-        className={`w-full h-full object-cover transition-opacity duration-300 ${isHovered ? "opacity-20" : "opacity-100"}`}
+        className={`w-full h-full object-cover transition-opacity duration-300 ${isHovered ? "opacity-15" : "opacity-100"}`}
       />
       <div
-        className={`absolute inset-0 p-4 transition-opacity duration-300 ${isHovered ? "opacity-100" : "opacity-0"} overflow-y-auto`}
+        className={`absolute inset-0 p-4 transition-opacity duration-300 ${isHovered ? "opacity-100" : "opacity-0"} overflow-y-auto bg-black bg-opacity-70`}
       >
-        <h3 className="mb-2 text-xl font-bold">{title}</h3>
+        <h3 className="mb-2 text-xl font-bold text-white">{title}</h3>
         {formattedDescription.map((line, index) => (
-          <p key={index} className="text-sm">
+          <p key={index} className="text-sm text-white">
             {line}
           </p>
         ))}
