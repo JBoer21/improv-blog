@@ -27,7 +27,7 @@ export default function Blog1() {
         <h1 className="mb-4 text-2xl font-bold">
           First Impressions, Excitement, and Nerves
         </h1>
-        {blog1.slice(0, 5).map((paragraph, index) => (
+        {blog1.slice(0, 6).map((paragraph, index) => (
           <Paragraph key={index} text={paragraph} />
         ))}
         <div className="flex justify-center mt-8 mb-8">
@@ -42,7 +42,7 @@ export default function Blog1() {
           ></iframe>
         </div>
         <div className="mt-8">
-          {blog1.slice(5).map((paragraph, index) => (
+          {blog1.slice(6).map((paragraph, index) => (
             <Paragraph key={index + 5} text={paragraph} />
           ))}
         </div>
