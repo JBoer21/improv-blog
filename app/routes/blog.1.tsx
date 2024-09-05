@@ -6,8 +6,8 @@ import Quote from "app/components/custom/qoute";
 
 export default function Blog1() {
   return (
-    <div className="flex p-4">
-      <div className="w-2/3 pr-8">
+    <div className="flex flex-col p-4 md:flex-row">
+      <div className="w-full md:w-2/3 md:pr-8">
         <div className="p-4 mb-6 bg-gray-100 rounded-lg">
           <p className="text-sm text-gray-600">
             Prompt #1: Describe your initial impressions of improvisation after
@@ -28,19 +28,19 @@ export default function Blog1() {
         <h1 className="mb-4 text-2xl font-bold">
           First Impressions, Excitement, and Nerves
         </h1>
-        {blog1.slice(0, 5).map((paragraph, index) => (
-          <Paragraph key={index} text={paragraph} />
-        ))}
+        <div className="space-y-4">
+          {blog1.slice(0, 5).map((paragraph, index) => (
+            <Paragraph key={index} text={paragraph} />
+          ))}
+        </div>
         <Quote
           text={qoutes[0].text}
           author={qoutes[0].author}
           source={qoutes[0].source}
           link={qoutes[0].link}
         />
-        {blog1.slice(5, 6).map((paragraph, index) => (
-          <Paragraph key={index} text={paragraph} />
-        ))}
-        <div className="flex justify-center mt-8 mb-8">
+        <Paragraph text={blog1[5]} />
+        <div className="flex justify-center my-8">
           <iframe
             width="560"
             height="315"
@@ -51,24 +51,26 @@ export default function Blog1() {
             allowFullScreen
           ></iframe>
         </div>
-        <div className="mt-8">
+        <div className="space-y-4">
           {blog1.slice(6, 9).map((paragraph, index) => (
             <Paragraph key={index + 6} text={paragraph} />
           ))}
-          <Quote
-            text={qoutes[1].text}
-            author={qoutes[1].author}
-            source={qoutes[1].source}
-            link={qoutes[1].link}
-          />
-          {blog1.slice(9).map((paragraph, index) => (
+        </div>
+        <Quote
+          text={qoutes[1].text}
+          author={qoutes[1].author}
+          source={qoutes[1].source}
+          link={qoutes[1].link}
+        />
+        <div className="space-y-4">
+          {blog1.slice(9, 16).map((paragraph, index) => (
             <Paragraph key={index + 9} text={paragraph} />
           ))}
         </div>
-        <div className="flex justify-center mt-8">
+        <div className="flex justify-center my-8">
           <iframe
-            width="50%"
-            height="400"
+            width="560"
+            height="315"
             src="https://www.youtube.com/embed/0VWg3ldzbLo"
             title="YouTube video player"
             frameBorder="0"
@@ -76,8 +78,9 @@ export default function Blog1() {
             allowFullScreen
           ></iframe>
         </div>
+        <Paragraph text={blog1[16]} />
       </div>
-      <div className="w-1/3 mt-32">
+      <div className="w-full mt-8 md:w-1/3 md:mt-32">
         <center>
           <BlogPhotoBand photos={photos} />
         </center>
