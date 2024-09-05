@@ -11,9 +11,9 @@ const par5 =
 
 const par6 = `Here is a Ted Talk from the London School of Economcis explaining the applicaiton of 'Yes, and' beyond the stage:`;
 
-const par7 = `Another impression about improv I have gathered in the first week or so of the class is that it requires a great deal of care for the individuals you are doing it with. When you are doing an improv scene with someone, you want to build off of each other and continue going, and not leave them stranded. A lot of trust must be shared between improv partners. This trust extends beyond the performance aspect; it’s about creating a safe space where everyone feels comfortable taking risks. You are giving your partner the power to be both creative and vulnerable.`;
+const par7 = `Another impression about improv I have gathered in the first week or so of the class is that it requires a great deal of care for the individuals you are doing it with. When you are doing an improv scene with someone, you want to build off of each other and continue going, and not leave them stranded. A lot of trust must be shared between improv partners. This trust extends beyond the performance aspect; it’s about creating a safe space where everyone feels comfortable taking risks. You are giving your partner the power to be both creative and vulnerable. As the manual states, "You should look at every contribution that your scene partner makes to the scene as a gift" (UCB manual, 56).`;
 
-const par8 = `While exciting to both create and be a part of such a space, it also adds a degree of nerve. You want to be contributing to the creation of said space, which is not easy. For me, there becomes a nervousness to be a great partner. I do not want to be the one to deny an idea, to listen poorly, to leave someone behind. This nerve is natural, I imagine, and these skills of being a good improv partner will improve as the class goes forward.`;
+const par8 = `While exciting to both create and be a part of such a space, it also adds a degree of nerve. You want to be contributing to the creation of said space, which is not easy. For me, there becomes a nervousness to be a great partner. I do not want to be the one to deny an idea, to be inattentive, to leave someone behind. "Denial means failing to agree with any aspect of the reality estbalished by your scene partner" (UCB manual, 57). This nerve is natural, I imagine, and these skills of being a good improv partner will improve as the class goes forward.`;
 
 const par9 = `There are two great rules that stand out to me. I believe these rules can be used to integrate improv into my everyday life in an impactful way.`;
 
@@ -44,4 +44,12 @@ export const blog1 = [
   par12,
   par13,
   par14,
+  par15,
 ];
+
+const qoute1 = {
+  text: "It is an impressively arrogant move to conclude that just because you don’t like something, it is empirically not good. I don’t like Chinese food, but I don’t write articles trying to prove it doesn’t exist.",
+  author: "Tina Fey",
+};
+
+export const qoutes = [qoute1];

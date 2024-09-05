@@ -1,7 +1,8 @@
-import { blog1 } from "app/data/blog1/blog1";
+import { blog1, qoutes } from "app/data/blog1/blog1";
 import Paragraph from "app/components/custom/paragraph";
 import BlogPhotoBand from "app/components/custom/blogPhotoBand";
 import { photos } from "app/data/blog1/blog1.images";
+import Quote from "app/components/custom/qoute";
 
 export default function Blog1() {
   return (
@@ -27,7 +28,11 @@ export default function Blog1() {
         <h1 className="mb-4 text-2xl font-bold">
           First Impressions, Excitement, and Nerves
         </h1>
-        {blog1.slice(0, 6).map((paragraph, index) => (
+        {blog1.slice(0, 4).map((paragraph, index) => (
+          <Paragraph key={index} text={paragraph} />
+        ))}
+        <Quote text={qoutes[0].text} author={qoutes[0].author} />
+        {blog1.slice(4, 6).map((paragraph, index) => (
           <Paragraph key={index} text={paragraph} />
         ))}
         <div className="flex justify-center mt-8 mb-8">
