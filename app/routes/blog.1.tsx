@@ -28,11 +28,16 @@ export default function Blog1() {
         <h1 className="mb-4 text-2xl font-bold">
           First Impressions, Excitement, and Nerves
         </h1>
-        {blog1.slice(0, 4).map((paragraph, index) => (
+        {blog1.slice(0, 5).map((paragraph, index) => (
           <Paragraph key={index} text={paragraph} />
         ))}
-        <Quote text={qoutes[0].text} author={qoutes[0].author} />
-        {blog1.slice(4, 6).map((paragraph, index) => (
+        <Quote
+          text={qoutes[0].text}
+          author={qoutes[0].author}
+          source={qoutes[0].source}
+          link={qoutes[0].link}
+        />
+        {blog1.slice(5, 6).map((paragraph, index) => (
           <Paragraph key={index} text={paragraph} />
         ))}
         <div className="flex justify-center mt-8 mb-8">
@@ -47,8 +52,17 @@ export default function Blog1() {
           ></iframe>
         </div>
         <div className="mt-8">
-          {blog1.slice(6).map((paragraph, index) => (
-            <Paragraph key={index + 5} text={paragraph} />
+          {blog1.slice(6, 9).map((paragraph, index) => (
+            <Paragraph key={index + 6} text={paragraph} />
+          ))}
+          <Quote
+            text={qoutes[1].text}
+            author={qoutes[1].author}
+            source={qoutes[1].source}
+            link={qoutes[1].link}
+          />
+          {blog1.slice(9).map((paragraph, index) => (
+            <Paragraph key={index + 9} text={paragraph} />
           ))}
         </div>
         <div className="flex justify-center mt-8">
