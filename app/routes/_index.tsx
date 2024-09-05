@@ -7,7 +7,7 @@ import {
   NavigationMenuTrigger,
 } from "app/components/ui/navigation-menu";
 import PhotoBand from "app/components/custom/photoBand";
-import { photos } from "app/data/band_images";
+import { photos } from "app/data/landing/band_images";
 export const meta: MetaFunction = () => {
   return [
     { title: "Jehan's Improv Journey" },
