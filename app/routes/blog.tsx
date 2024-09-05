@@ -18,8 +18,8 @@ export default function Blog() {
 
   return (
     <div className="flex flex-col w-full min-h-screen bg-muted/40">
-      <aside className="fixed inset-y-0 left-0 z-10 flex-col hidden border-r w-14 bg-background sm:flex">
-        <nav className="flex flex-col items-center gap-4 px-2 sm:py-5">
+      <aside className="z-10 flex flex-row border-b sm:flex-col sm:border-r bg-background sm:fixed sm:inset-y-0 sm:left-0 sm:w-14">
+        <nav className="flex flex-row items-center w-full gap-4 px-2 py-2 sm:flex-col sm:py-5 sm:w-auto">
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
@@ -31,7 +31,9 @@ export default function Blog() {
                   <span className="sr-only">Home</span>
                 </Link>
               </TooltipTrigger>
-              <TooltipContent side="right">Home</TooltipContent>
+              <TooltipContent side="bottom" className="sm:side-right">
+                Home
+              </TooltipContent>
             </Tooltip>
             <Tooltip>
               <TooltipTrigger asChild>
@@ -43,7 +45,9 @@ export default function Blog() {
                   <span className="sr-only">Intro</span>
                 </Link>
               </TooltipTrigger>
-              <TooltipContent side="right">Intro</TooltipContent>
+              <TooltipContent side="bottom" className="sm:side-right">
+                Intro
+              </TooltipContent>
             </Tooltip>
             <Tooltip>
               <TooltipTrigger asChild>
@@ -55,12 +59,14 @@ export default function Blog() {
                   <span className="sr-only">Blog 1</span>
                 </Link>
               </TooltipTrigger>
-              <TooltipContent side="right">Blog 1</TooltipContent>
+              <TooltipContent side="bottom" className="sm:side-right">
+                Blog 1
+              </TooltipContent>
             </Tooltip>
           </TooltipProvider>
         </nav>
       </aside>
-      <div className="flex flex-col sm:gap-4 sm:py-4 sm:pl-14">
+      <div className="flex flex-col sm:pl-14">
         <main className="flex-1 p-4">
           <Outlet />
         </main>
