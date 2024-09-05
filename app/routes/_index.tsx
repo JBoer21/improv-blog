@@ -44,6 +44,14 @@ export default function Index() {
                     <ul className="space-y-1">
                       <li>
                         <a
+                          href="/blog/intro"
+                          className="block p-2 -m-2 text-sm transition-colors rounded-md hover:bg-slate-100"
+                        >
+                          Intro
+                        </a>
+                      </li>
+                      <li>
+                        <a
                           href="/blog/1"
                           className="block p-2 -m-2 text-sm transition-colors rounded-md hover:bg-slate-100"
                         >
