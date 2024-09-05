@@ -18,7 +18,7 @@ export const photos = [
       "https://pbs.twimg.com/profile_images/1748420448566542336/cYx_ypR9_400x400.jpg",
     title: "Study Area of Focus",
     description:
-      "I chose to study Computer Science here at Hopkins. I am pretty interested in software and think it has tremendous potential to create positive impact. I built this website using React Remix & Typescript.",
+      "I chose to study Computer Science here at Hopkins. I am pretty interested in software and think it has tremendous potential to create positive impact. I built this website using React Remix, Typescript, and Shadcn.",
   },
   {
     imageUrl:
@@ -40,5 +40,10 @@ export const photos = [
     title: "My Improv Journey",
     description:
       "Prior to this class, my only experience with improv had been watching it. I am super excited to get to experience the other side of it, and think improv will be beneficial to both my personal and professional life.",
+  },
+  {
+    imageUrl: "https://i.ibb.co/3WG7qdy/fam.png",
+    title: "Family",
+    description: "Me and the fam.",
   },
 ];
