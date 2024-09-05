@@ -12,7 +12,7 @@ interface BlogPhotoBandProps {
 
 const BlogPhotoBand: React.FC<BlogPhotoBandProps> = ({ photos }) => {
   return (
-    <div className="flex flex-col space-y-72">
+    <div className="flex flex-col space-y-56">
       {photos.map((photo, index) => (
         <div key={index} className="w-full">
           <PhotoCard

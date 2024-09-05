@@ -27,4 +27,10 @@ export const photos = [
     description:
       "Improv is not as simple as simply making stuff up. You must trust your improv teammates and be a trustful teammate. As Amy Poehler says, 'No man gets left behind.'",
   },
+  {
+    imageUrl: "https://i.ibb.co/mSSbn8v/IMG-0124.jpg",
+    title: "In Class Action",
+    description:
+      "Real photo from an improv warm up game this week where I am trying to mimic Marwa.",
+  },
 ];
