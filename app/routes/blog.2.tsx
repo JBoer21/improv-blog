@@ -52,6 +52,29 @@ export default function Blog2() {
           source={qoutes[1].source}
           link={qoutes[1].link}
         />
+        <Paragraph text = {'The first video here shows how focusing on your own funnyness means you miss oppurtunities. The second discusses how improv helps to take risks and not live in fear.'}/>
+        <div className="flex justify-center my-8">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/BQlkORSlvJk"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className="flex justify-center my-8">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/F0J02U2iseI"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
       <div className="w-full mt-8 md:w-1/3 md:mt-32">
         <center>

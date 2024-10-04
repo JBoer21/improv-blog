@@ -47,7 +47,7 @@ const par17 = `This risk embodies the philosophies of heightening and extending,
 
 const par18 = `Easily, the worst feeling in acting out an improv scene is feeling stagnant. The scene is going nowhere: random questions back and forth and no movement whatsoever. These scenes feel like little boxes; the ones acting them out feel stuck and the ones watching just feel sorry.`;
 
-const par19 = `Evading these scenes is a must and can be done with the strategies of heightening and extending scenes, allowing actors to escape these tiny boxes. By taking the existing elements of the scene and asking yourself “if this is true, what else is true” you expand your built world ten-fold. It feels freeing.`;
+const par19 = `Evading these scenes is a must and can be done with the strategies of heightening and extending scenes, allowing actors to escape these tiny boxes. By taking the existing elements of the scene and asking yourself “if this unusual thing is true, what else is true” (UCB 125) you expand your built world ten-fold. It feels freeing.`;
 
 const par20 = `The analogy here is that its cozy and easy to stay in the box, to ask random questions back and forth with your partner and stay stagnant in your scene. This makes the choice to do so appealing and safe. However, you cannot hold this mentality. Just like you must take risks to escape the box, you must also take risks to avoid the comfort and grow. Improv scenes are just like real life: you must heighten to move forward, otherwise things are just boring.`;
 
