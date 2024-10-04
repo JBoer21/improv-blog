@@ -63,6 +63,20 @@ export default function Blog() {
                 Blog 1
               </TooltipContent>
             </Tooltip>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <Link
+                  to="/blog/2"
+                  className={`flex items-center justify-center transition-colors rounded-lg h-9 w-9 md:h-8 md:w-8 ${isActive("/blog/2")}`}
+                >
+                  <span className="text-sm font-medium">B2</span>
+                  <span className="sr-only">Blog 2</span>
+                </Link>
+              </TooltipTrigger>
+              <TooltipContent side="bottom" className="sm:side-right">
+                Blog 2
+              </TooltipContent>
+            </Tooltip>
           </TooltipProvider>
         </nav>
       </aside>
