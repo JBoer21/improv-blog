@@ -46,6 +46,12 @@ export default function Blog2() {
             <Paragraph key={index} text={paragraph} />
           ))}
         </div>
+        <Quote
+          text={qoutes[1].text}
+          author={qoutes[1].author}
+          source={qoutes[1].source}
+          link={qoutes[1].link}
+        />
       </div>
       <div className="w-full mt-8 md:w-1/3 md:mt-32">
         <center>
