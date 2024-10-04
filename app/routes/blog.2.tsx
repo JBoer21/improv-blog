@@ -1,7 +1,7 @@
 import Paragraph from "app/components/custom/paragraph";
-import BlogPhotoBand from "app/components/custom/blogPhotoBand";
-import Quote from "app/components/custom/qoute";
-import { blog2part1 } from "~/data/blog2/blog2";
+// import BlogPhotoBand from "app/components/custom/blogPhotoBand";
+// import Quote from "app/components/custom/qoute";
+import { blog2part1, blog2part2 } from "~/data/blog2/blog2";
 
 export default function Blog2() {
   return (
@@ -29,6 +29,13 @@ export default function Blog2() {
         <h1 className="mb-4 text-sm text-gray-600">Adpatability</h1>
         <div className="space-y-4">
           {blog2part1.map((paragraph, index) => (
+            <Paragraph key={index} text={paragraph} />
+          ))}
+        </div>
+        <br/>
+        <h1 className="mb-4 text-sm text-gray-600">Risk Taking</h1>
+        <div className="space-y-4">
+          {blog2part2.map((paragraph, index) => (
             <Paragraph key={index} text={paragraph} />
           ))}
         </div>
