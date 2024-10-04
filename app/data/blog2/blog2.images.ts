@@ -3,7 +3,7 @@ export const photos = [
     imageUrl: "https://i.ibb.co/qJPG94P/IMG-2551.jpg",
     title: "Life Before Adapting",
     description:
-      "This was me before boarding school and moving to the US. It would have been hard to ever catch me wearing shoes. The probablity of ever finding me wearing pants was 0. This was in Lagos, Nigeria.",
+      "This was me before boarding school and moving to the US. It would have been hard to ever catch me wearing shoes. The probablity of ever finding me wearing pants (as opposed to shorts) was 0. This was in Lagos, Nigeria.",
   },
 
   {
@@ -25,6 +25,13 @@ export const photos = [
     title: "Worth it",
     description:
       "Me and the friends I made in New York, in New York. The risk was totally worth it.",
+  },
+
+  {
+    imageUrl: "https://i.ibb.co/QXPb8CH/IMG-0522.jpg",
+    title: "Escaping the Box",
+    description:
+      "Jonathan and I running a scene. I have been trying to implement heightening and extending in all my scenes and all areas of my life.",
   },
 
 ];
