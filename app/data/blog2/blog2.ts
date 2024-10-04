@@ -63,3 +63,20 @@ export const blog2part2 = [
   par19,
   par20,
 ];
+
+const qoute1 = {
+  text: "One of the key principles of improv is the concept of “yes, and.” This means accepting whatever is thrown your way and adding to it, rather than shutting it down. In a scene, this might look like agreeing with your scene partner’s suggestion and building upon it to create a more interesting and engaging story. In real life, this could mean being open to new ideas and perspectives, and being willing to collaborate with others to achieve a common goal.",
+  author: "Success Improv",
+  source: "Success Improv",
+  link: "https://successimprov.com/from-the-stage-to-everyday-life-embracing-the-principles-of-improv-for-personal-growth/",
+};
+
+const qoute2 = {
+  text: "Improv teaches us to take risks: it’s a leap of faith to go into a new area",
+  author: "Astrid Baumgardner",
+  source:
+    "The Wisdom of Improv: 6 Principles to Enhance Your Happiness and Well-Being",
+  link: "https://www.astridbaumgardner.com/blog-and-resources/blog/the-wisdom-of-improv-6-principles-to-enhance-your-happiness-and-well-being/",
+};
+
+export const qoutes = [qoute1, qoute2];

@@ -14,7 +14,8 @@ export const photos = [
   },
 
   {
-    imageUrl: "https://i.ibb.co/DrbfHbW/a9b0d052-913d-4082-b7d7-db3fc4b622d8.jpg",
+    imageUrl:
+      "https://i.ibb.co/DrbfHbW/a9b0d052-913d-4082-b7d7-db3fc4b622d8.jpg",
     title: "Cozy Old Beantown",
     description:
       "Boston was my city. I loved the weather. It would have been too easy to go back.",
@@ -33,6 +34,4 @@ export const photos = [
     description:
       "Jonathan and I running a scene. I have been trying to implement heightening and extending in all my scenes and all areas of my life.",
   },
-
 ];
-

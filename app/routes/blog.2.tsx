@@ -1,8 +1,7 @@
 import Paragraph from "app/components/custom/paragraph";
 import BlogPhotoBand from "~/components/custom/blogPhotoBand";
-// import BlogPhotoBand from "app/components/custom/blogPhotoBand";
-// import Quote from "app/components/custom/qoute";
-import { blog2part1, blog2part2 } from "~/data/blog2/blog2";
+import Quote from "app/components/custom/qoute";
+import { blog2part1, blog2part2, qoutes } from "~/data/blog2/blog2";
 import { photos } from "~/data/blog2/blog2.images";
 
 export default function Blog2() {
@@ -34,6 +33,12 @@ export default function Blog2() {
             <Paragraph key={index} text={paragraph} />
           ))}
         </div>
+        <Quote
+          text={qoutes[0].text}
+          author={qoutes[0].author}
+          source={qoutes[0].source}
+          link={qoutes[0].link}
+        />
         <br />
         <h1 className="mb-4 text-sm text-gray-600">Risk Taking</h1>
         <div className="space-y-4">
