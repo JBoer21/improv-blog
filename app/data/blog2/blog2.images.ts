@@ -14,14 +14,14 @@ export const photos = [
   },
 
   {
-    imageUrl: "https://i.ibb.co/R7GR7Ss/IMG-1490.jpg",
+    imageUrl: "https://i.ibb.co/DrbfHbW/a9b0d052-913d-4082-b7d7-db3fc4b622d8.jpg",
     title: "Cozy Old Beantown",
     description:
       "Boston was my city. I loved the weather. It would have been too easy to go back.",
   },
 
   {
-    imageUrl: "https://i.ibb.co/DrbfHbW/a9b0d052-913d-4082-b7d7-db3fc4b622d8.jpg",
+    imageUrl: "https://i.ibb.co/R7GR7Ss/IMG-1490.jpg",
     title: "Worth it",
     description:
       "Me and the friends I made in New York, in New York. The risk was totally worth it.",
