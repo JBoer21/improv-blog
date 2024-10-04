@@ -1,7 +1,9 @@
 import Paragraph from "app/components/custom/paragraph";
+import BlogPhotoBand from "~/components/custom/blogPhotoBand";
 // import BlogPhotoBand from "app/components/custom/blogPhotoBand";
 // import Quote from "app/components/custom/qoute";
 import { blog2part1, blog2part2 } from "~/data/blog2/blog2";
+import { photos } from "~/data/blog2/blog2.images";
 
 export default function Blog2() {
   return (
@@ -32,7 +34,7 @@ export default function Blog2() {
             <Paragraph key={index} text={paragraph} />
           ))}
         </div>
-        <br/>
+        <br />
         <h1 className="mb-4 text-sm text-gray-600">Risk Taking</h1>
         <div className="space-y-4">
           {blog2part2.map((paragraph, index) => (
@@ -41,7 +43,9 @@ export default function Blog2() {
         </div>
       </div>
       <div className="w-full mt-8 md:w-1/3 md:mt-32">
-        <center>{/* <BlogPhotoBand photos={photos} /> */}</center>
+        <center>
+          <BlogPhotoBand photos={photos} />
+        </center>
       </div>
     </div>
   );
