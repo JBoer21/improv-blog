@@ -33,3 +33,19 @@ export const blog3 = [
   par10,
   par11,
 ];
+
+const qoute1 = {
+  text: "People with dull lives often think that their lives are dull by chance. In reality, everyone chooses more or less what kind of events will happen to them by their conscious patterns of blocking and yielding. A student objected to this view by saying, 'But you don't choose your life. Sometimes, you are at the mercy of people who push you around.' I said, 'Do you avoid such people?' 'Oh!' she said, 'I see what you mean.'",
+  author: "Keith Johnstone",
+  source: "Goodreads",
+  link: "https://www.goodreads.com/author/quotes/154721.Keith_Johnstone",
+};
+
+const qoute2 = {
+  text: "MAKE STATEMENTS. This is a positive way of saying 'Don't ask questions all the time.' If we're in a scene and I say, 'Who are you? Where are we? What are we doing here? What's in that box?' I'm putting pressure on you to come up with all the answers",
+  author: "Tina Fey",
+  source: "Tina Fey’s Rules of Improvisation That Will Change Your Life and Reduce Belly Fat*",
+  link: "https://kicp-workshops.uchicago.edu/eo2014/pdf/Tina-Feys-rules-of-improv.pdf",
+};
+
+export const qoutes = [qoute1, qoute2];
