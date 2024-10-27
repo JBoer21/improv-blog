@@ -1,7 +1,7 @@
 import Paragraph from "app/components/custom/paragraph";
 import BlogPhotoBand from "~/components/custom/blogPhotoBand";
 import Quote from "app/components/custom/qoute";
-import { blog3 } from "~/data/blog3/blog3";
+import { blog3, qoutes } from "~/data/blog3/blog3";
 import { photos } from "~/data/blog3/blog3.images";
 
 export default function Blog3() {
@@ -46,10 +46,29 @@ export default function Blog3() {
         </h1>
         <h1 className="mb-4 text-sm text-gray-600">Adpatability</h1>
         <div className="space-y-4">
-          {blog3.map((paragraph, index) => (
-            <Paragraph key={index} text={paragraph} />
-          ))}
-        </div>
+  {blog3.map((paragraph, index) => (
+    <>
+      <Paragraph key={index} text={paragraph} />
+      {index === 9 && (
+        <Quote
+          text={qoutes[1].text}
+          author={qoutes[1].author}
+          source={qoutes[1].source}
+          link={qoutes[1].link}
+        />
+      )}
+      {index === 10 && (
+        <Quote
+          text={qoutes[0].text}
+          author={qoutes[0].author}
+          source={qoutes[0].source}
+          link={qoutes[0].link}
+        />
+      )}
+    </>
+  ))}
+</div>
+
         <br />
         <div className="flex justify-center my-8"></div>
         <div className="flex justify-center my-8"></div>
