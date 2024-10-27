@@ -16,20 +16,20 @@ const par8 = `Another form of inspiration I drew from was how to heighten a lot 
 
 const par9 = `These two insights can easily be applied to both my improv journey and my final performance.`;
 
-const par10 = `In the case of my improv journey, I think finding better ways to heighten will certainly benefit me. I think by finding better ways to move along a scene other than asking questions, the flow, fluidity and energy of said scene will improv. By implementing the method of simply answering the questions I would have asked otherwise, group think is a lot stronger and scenes feel a lot more real.` 
+const par10 = `In the case of my improv journey, I think finding better ways to heighten will certainly benefit me. I think by finding better ways to move along a scene other than asking questions, the flow, fluidity and energy of said scene will improv. By implementing the method of simply answering the questions I would have asked otherwise, group think is a lot stronger and scenes feel a lot more real.`;
 
 const par11 = `In the case of my final performance, I think thinking of and emulating unique characters is a strategy that will benefit everyone. By being a less basic character, there is not only room for more hilarity, but more to draw on and heighten from, to the benefit of both the audience and the ensemble.`;
 
 export const blog3 = [
-    par1,
-    par2,
-    par3,
-    par4,
-    par5,
-    par6,
-    par7,
-    par8,
-    par9,
-    par10,
-    par11
-  ];
+  par1,
+  par2,
+  par3,
+  par4,
+  par5,
+  par6,
+  par7,
+  par8,
+  par9,
+  par10,
+  par11,
+];

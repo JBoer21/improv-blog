@@ -52,7 +52,11 @@ export default function Blog2() {
           source={qoutes[1].source}
           link={qoutes[1].link}
         />
-        <Paragraph text = {'The first video here shows how focusing on your own funnyness means you miss oppurtunities. The second discusses how improv helps to take risks and not live in fear.'}/>
+        <Paragraph
+          text={
+            "The first video here shows how focusing on your own funnyness means you miss oppurtunities. The second discusses how improv helps to take risks and not live in fear."
+          }
+        />
         <div className="flex justify-center my-8">
           <iframe
             width="560"
