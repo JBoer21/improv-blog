@@ -44,7 +44,6 @@ export default function Blog3() {
         <h1 className="mb-4 text-2xl font-bold">
           Improv Show Critique and Reflection
         </h1>
-        <h1 className="mb-4 text-sm text-gray-600">Adpatability</h1>
         <div className="space-y-4">
   {blog3.map((paragraph, index) => (
     <>
