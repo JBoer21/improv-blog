@@ -2,6 +2,7 @@ import Paragraph from "app/components/custom/paragraph";
 import BlogPhotoBand from "~/components/custom/blogPhotoBand";
 import Quote from "app/components/custom/qoute";
 import { blog3 } from "~/data/blog3/blog3";
+import { photos } from "~/data/blog3/blog3.images";
 
 export default function Blog3() {
   return (
@@ -50,15 +51,14 @@ export default function Blog3() {
           ))}
         </div>
         <br />
-        <h1 className="mb-4 text-sm text-gray-600">Risk Taking</h1>
         <div className="flex justify-center my-8"></div>
         <div className="flex justify-center my-8"></div>
       </div>
-      {/* <div className="w-full mt-8 md:w-1/3 md:mt-32">
+      <div className="w-full mt-8 md:w-1/3 md:mt-32">
         <center>
           <BlogPhotoBand photos={photos} />
         </center>
-      </div> */}
+      </div>
     </div>
   );
 }
