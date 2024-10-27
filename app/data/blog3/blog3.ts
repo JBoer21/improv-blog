@@ -20,7 +20,7 @@ const par10 = `In the case of my improv journey, I think finding better ways to 
 
 const par11 = `In the case of my final performance, I think thinking of and emulating unique characters is a strategy that will benefit everyone. By being a less basic character, there is not only room for more hilarity, but more to draw on and heighten from, to the benefit of both the audience and the ensemble.`;
 
-export const blog2part1 = [
+export const blog3 = [
     par1,
     par2,
     par3,
