@@ -3,7 +3,7 @@ export const photos = [
       imageUrl: "https://i.ibb.co/mRqz779/Screenshot-2024-10-27-at-3-22-18-PM.png",
       title: "Improv Show!",
       description:
-        "Really living the mentality of Yes and",
+        "Here we are at the BIG (Baltimore Improv Group). It was in a really artsy area of Baltimore. Really living the mentality of Yes and",
     },
 
     {
@@ -17,7 +17,7 @@ export const photos = [
         imageUrl: "https://i.ibb.co/r6Sx7Hr/IMG-5471.jpg",
         title: "The gang!",
         description:
-          "Very grateful that I have made so many cool friends in this class!",
+          "Everyone who came to watch the show. I am very grateful that I have made so many cool friends in this class!",
       },
   ];
   
