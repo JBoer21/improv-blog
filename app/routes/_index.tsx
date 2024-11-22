@@ -74,6 +74,14 @@ export default function Index() {
                           Blog 3
                         </a>
                       </li>
+                      <li>
+                        <a
+                          href="/blog/4"
+                          className="block p-2 -m-2 text-sm transition-colors rounded-md hover:bg-slate-100"
+                        >
+                          Blog 4
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </NavigationMenuContent>

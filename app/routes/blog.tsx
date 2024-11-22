@@ -81,10 +81,24 @@ export default function Blog() {
               <TooltipTrigger asChild>
                 <Link
                   to="/blog/3"
-                  className={`flex items-center justify-center transition-colors rounded-lg h-9 w-9 md:h-8 md:w-8 ${isActive("/blog/2")}`}
+                  className={`flex items-center justify-center transition-colors rounded-lg h-9 w-9 md:h-8 md:w-8 ${isActive("/blog/3")}`}
                 >
                   <span className="text-sm font-medium">B3</span>
                   <span className="sr-only">Blog 3</span>
+                </Link>
+              </TooltipTrigger>
+              <TooltipContent side="bottom" className="sm:side-right">
+                Blog 3
+              </TooltipContent>
+            </Tooltip>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <Link
+                  to="/blog/4"
+                  className={`flex items-center justify-center transition-colors rounded-lg h-9 w-9 md:h-8 md:w-8 ${isActive("/blog/4")}`}
+                >
+                  <span className="text-sm font-medium">B4</span>
+                  <span className="sr-only">Blog 4</span>
                 </Link>
               </TooltipTrigger>
               <TooltipContent side="bottom" className="sm:side-right">
