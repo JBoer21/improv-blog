@@ -2,6 +2,7 @@ import Paragraph from "app/components/custom/paragraph";
 import BlogPhotoBand from "~/components/custom/blogPhotoBand";
 import Quote from "app/components/custom/qoute";
 import { blog3, qoutes } from "~/data/blog3/blog3";
+import { blog4 } from "~/data/blog4/blog4";
 import { photos } from "~/data/blog3/blog3.images";
 
 export default function Blog4() {
@@ -10,34 +11,8 @@ export default function Blog4() {
       <div className="w-full md:w-2/3 md:pr-8">
         <div className="p-4 mb-6 bg-gray-100 rounded-lg">
           <p className="text-sm text-gray-600">
-            Before you write this blog, you will need to attend a live improv
-            show- many students have gone as a class or in groups and made a
-            night out of it. There are multiple in Baltimore and DC (Baltimore
-            Improv, Highwire Improv). Be sure to jot down some notes just after
-            you leave or during the break so you have them when you write. Take
-            photos to document your experience (note: avoid taking pictures
-            during the show unless permitted). Students have captured great
-            moments with classmates and the cast after the performance and these
-            can be part of your blog.
-            <br />
-            <br />
-            Observations:
-            <br />
-            • Provide a general analysis of the show.
-            <br />
-            • Discuss how the ensemble interacted and how they did or did not
-            exhibit a &quot;group mind&quot;.
-            <br />
-            <br />
-            • Offer constructive feedback to the ensemble based on your
-            observations.
-            <br />
-            <br />
-            Insight and Reflection:
-            <br />
-            • Share a new insight you gained from attending the show.
-            <br />• Reflect on how this insight can be applied to your own
-            improv journey and your final performance.
+            Right after our final presentation, MC gave us the chance to write our final blog as a reflection on
+            our final presentation. I took this oppurtunity.
           </p>
         </div>
 
