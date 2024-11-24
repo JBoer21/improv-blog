@@ -11,3 +11,19 @@ const par5 = `Lastly, reflections on our longform. If I am being honest, longfor
 const par6 = `Overall, the show went well. The experience has been so great, and it feels great, and I think my team can really hold our heads high up on this one.`;
 
 export const blog4 = [par1, par2, par3, par4, par5, par6];
+
+const qoute1 = {
+  text: "If you miss a beat, you create another.",
+  author: "Sam Shepard, shared by Patti Smith",
+  source: "improvised life",
+  link: "https://improvisedlife.com/2019/10/23/patti-smith-the-secret-to-improvisation-i-have-accessed-my-whole-life/",
+};
+
+const qoute2 = {
+  text: "You cannot create results. You can only create conditions in which something might happen.",
+  author: "Anne Bogart",
+  source: "Goodreads",
+  link: "https://www.goodreads.com/author/quotes/123483.Anne_Bogart",
+};
+
+export const qoutes = [qoute1, qoute2];

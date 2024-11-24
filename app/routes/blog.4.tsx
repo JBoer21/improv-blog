@@ -1,8 +1,9 @@
 import Paragraph from "app/components/custom/paragraph";
 import BlogPhotoBand from "~/components/custom/blogPhotoBand";
 import Quote from "app/components/custom/qoute";
-import { blog4 } from "~/data/blog4/blog4";
+import { blog4, qoutes } from "~/data/blog4/blog4";
 import { photos } from "~/data/blog3/blog3.images";
+import React from "react";
 
 export default function Blog4() {
   return (
@@ -20,7 +21,25 @@ export default function Blog4() {
         </h1>
         <div className="space-y-4">
           {blog4.map((paragraph, index) => (
-            <Paragraph key={index} text={paragraph} />
+            <React.Fragment key={index}>
+              <Paragraph text={paragraph} />
+              {index === 3 && (
+                <Quote
+                  text={qoutes[1].text}
+                  author={qoutes[1].author}
+                  source={qoutes[1].source}
+                  link={qoutes[1].link}
+                />
+              )}
+              {index === 4 && (
+                <Quote
+                  text={qoutes[0].text}
+                  author={qoutes[0].author}
+                  source={qoutes[0].source}
+                  link={qoutes[0].link}
+                />
+              )}
+            </React.Fragment>
           ))}
         </div>
         <br />
