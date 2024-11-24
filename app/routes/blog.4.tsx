@@ -2,7 +2,7 @@ import Paragraph from "app/components/custom/paragraph";
 import BlogPhotoBand from "~/components/custom/blogPhotoBand";
 import Quote from "app/components/custom/qoute";
 import { blog4, qoutes } from "~/data/blog4/blog4";
-import { photos } from "~/data/blog3/blog3.images";
+import { photos } from "~/data/blog4/blog4.images";
 import React from "react";
 
 export default function Blog4() {
@@ -23,21 +23,53 @@ export default function Blog4() {
           {blog4.map((paragraph, index) => (
             <React.Fragment key={index}>
               <Paragraph text={paragraph} />
+              {index === 2 && (
+                <div>
+                <Paragraph text = {"Really good video detailing my reflections on establishing a strong base reality"}/>
+                <div className="flex justify-center my-8">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/KIjX-sx4LwU"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                </div>
+              )}
               {index === 3 && (
-                <Quote
-                  text={qoutes[1].text}
-                  author={qoutes[1].author}
-                  source={qoutes[1].source}
-                  link={qoutes[1].link}
-                />
+                   <>
+                   <Quote
+                     text={qoutes[1].text}
+                     author={qoutes[1].author}
+                     source={qoutes[1].source}
+                     link={qoutes[1].link}
+                   />
+                    <Paragraph text = {"Really funny performance of 'Change'"}/>
+                   <div className="flex justify-center my-8">
+                     <iframe
+                       width="560"
+                       height="315"
+                       src="https://www.youtube.com/embed/F5YxjnCXuUY"
+                       title="YouTube video player"
+                       frameBorder="0"
+                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                       allowFullScreen
+                     ></iframe>
+                   </div>
+                 </>
               )}
               {index === 4 && (
-                <Quote
-                  text={qoutes[0].text}
-                  author={qoutes[0].author}
-                  source={qoutes[0].source}
-                  link={qoutes[0].link}
-                />
+                <>
+                  <Quote
+                    text={qoutes[0].text}
+                    author={qoutes[0].author}
+                    source={qoutes[0].source}
+                    link={qoutes[0].link}
+                  />
+                </>
               )}
             </React.Fragment>
           ))}
