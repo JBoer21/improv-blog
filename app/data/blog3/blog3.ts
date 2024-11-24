@@ -44,7 +44,8 @@ const qoute1 = {
 const qoute2 = {
   text: "MAKE STATEMENTS. This is a positive way of saying 'Don't ask questions all the time.' If we're in a scene and I say, 'Who are you? Where are we? What are we doing here? What's in that box?' I'm putting pressure on you to come up with all the answers",
   author: "Tina Fey",
-  source: "Tina Fey’s Rules of Improvisation That Will Change Your Life and Reduce Belly Fat*",
+  source:
+    "Tina Fey’s Rules of Improvisation That Will Change Your Life and Reduce Belly Fat*",
   link: "https://kicp-workshops.uchicago.edu/eo2014/pdf/Tina-Feys-rules-of-improv.pdf",
 };
 

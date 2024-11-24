@@ -10,11 +10,4 @@ const par5 = `Lastly, reflections on our longform. If I am being honest, longfor
 
 const par6 = `Overall, the show went well. The experience has been so great, and it feels great, and I think my team can really hold our heads high up on this one.`;
 
-export const blog4 = [
-    par1,
-    par2,
-    par3,
-    par4,
-    par5,
-    par6
-]
+export const blog4 = [par1, par2, par3, par4, par5, par6];
