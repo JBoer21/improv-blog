@@ -7,18 +7,25 @@ export const photos = [
         "Super proud of the group! I have really made 12 amazing friends in this class!",
     },
   
-    // {
-    //   imageUrl: "https://i.ibb.co/k24R57j/IMG-5472.jpg",
-    //   title: "Enjoying the show",
-    //   description:
-    //     "Nahuel and I enjoying the opening monologue. This character asked the audience whether we had any questions for them, to which Nahuel responded 'do you like rabbits?'.",
-    // },
+    {
+      imageUrl: "https://i.postimg.cc/zvq5ZymS/IMG-2621.jpg",
+      title: "Dicussing the Ocean",
+      description:
+        "Jayden and I talking about the whale we were hunting in our 'Change' scene. Our audience recommendation was ocean.",
+    },
   
-    // {
-    //   imageUrl: "https://i.ibb.co/r6Sx7Hr/IMG-5471.jpg",
-    //   title: "The gang!",
-    //   description:
-    //     "Everyone who came to watch the show. I am very grateful that I have made so many cool friends in this class!",
-    // },
+    {
+      imageUrl: "https://i.postimg.cc/nrTxHnp8/IMG-2623.jpg",
+      title: "Ocean and the Whale",
+      description:
+        "Christine did a great job as a walk on. She became the whale that Jayden and I were talking about",
+    },
+
+    {
+        imageUrl: "https://i.postimg.cc/T2cfjJmk/IMG-2624.jpg",
+        title: "Change!",
+        description:
+          "Silently running the scene from the side lines. I was the director in the other version of 'Change' and got to yell from off the set",
+      }
   ];
   
